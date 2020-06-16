@@ -2,3 +2,4 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - command: chef-apply recipe.rb
+privileged: true
